@@ -1,7 +1,7 @@
 
 
 # Mapa de sitio
-## PAGINA ONE PAGE
+## PÁGINA ONE PAGE
 ### HEADER
 - Logotipo
 - biografías
@@ -22,6 +22,6 @@
 ### Galería
 - slider con las ilustraciones y fotos del proyecto
 
-- Fotos ! ej. :![](img/paleta.jpg)
+![](img/paleta.png)
 <!--  -->
 <!--  -->
