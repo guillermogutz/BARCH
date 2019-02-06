@@ -9,7 +9,7 @@
 - Galería
 ### Heroscreen
 -imagen acerca del concepto proyecto (ya sea Gif o slider)
-- Logotipo
+
 ### Biografía herbert bayer
 - 2 divs o columnas
 - imagen del artista y su breve descripción a un lado
@@ -17,11 +17,11 @@
 - 2 divs o columnas
 - imagen del artista y su breve descripción a un lado
 ### Video Museo
-- 2 divs o columnas
-- imagen del artista y su breve descripción a un lado
+- video del recorrido del museo
 ### Galería
 - slider con las ilustraciones y fotos del proyecto
 
 ![](img/paleta.png)
+![](img/tipo.png)
 <!--  -->
 <!--  -->
