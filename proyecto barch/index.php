@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
   <a class="navbar-brand" href="#">BARCH</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,15 +24,16 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Museo</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Galería
+      <li class="nav-item ">
+      <a class="nav-link dropdown-toggle" href="#" id="menu-admin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Acerca de
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-menu" aria-labelledby="menu-admin">
+          <a class="dropdown-item" href="#">Galería</a>
+          <a class="dropdown-item" href="#">Obras</a>
+          <a class="dropdown-item" href="#">Realización</a>
         </div>
+       
       </li>
     </ul>
   </div>
@@ -43,7 +44,7 @@
 <div class="row">
   <div class="col-lg-12 bg-white text-dark">
     <h1>HEROSCREEN</h1> 
-    <p>se pondra imagen acerca del proyecto ya sea GIF o slider.</p>
+    <p>El proyecto es acerca de 2 autores de bauhaus y se realizará un museo que contenga el estilo visual de ellos, aqui se pondra imagen acerca del proyecto ya sea GIF o slider.</p>
   </div>
 
   <div class="container-fluid">
