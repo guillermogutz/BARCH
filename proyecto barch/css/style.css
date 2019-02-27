@@ -1,0 +1,61 @@
+/* ********** Custom Properties ********** */
+:root {
+    --first-color: rgb(230, 50, 40);
+    --first-modal-color: rgba(240, 55, 55, .75);
+    --second-color: rgb(150, 150, 150);
+    --second-modal-color: rgba(160, 155, 155, 0.75);
+    --third-color: rgb(20, 110, 170);
+    --third-modal-color: rgba(25, 115, 190, .75);
+    --four-color: rgb(240, 200, 0);
+    --four-modal-color: rgba(255, 220, 0, .75);
+    --fifth-color: rgb(255, 255, 255);
+    --fifth-modal-color: rgba(255, 245, 245, .75);
+    --link-color: rgb(80, 158, 227);
+  
+    --navbar-height: 64px;
+  }
+  
+  /* ********** Reset Styles ********** */
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  a {
+    color: var(--link-color);
+    transition: all .3s ease-out;
+  }
+  
+  a:hover { color: var(--first-color); }
+  
+  /* ********** Bootstrap Styles ********** */
+  .bg-dark { background-color: var(--second-color) !important; }
+  
+  .navbar-brand img {
+    width: auto;
+    height: var(--navbar-height);
+  }
+  
+  /* ********** My Styles ********** */
+  .font-120 { font-size: 120%; }
+  
+  .font-150 { font-size: 150%; }
+  
+  /* ********** Media Queries Small ********** */
+  @media (min-width: 576px) {
+  
+  }
+  
+  /* ********** Media Queries Medium ********** */
+  @media (min-width: 768px) {
+  
+  }
+  
+  /* ********** Media Queries Large ********** */
+  @media (min-width: 992px) {
+  
+  }
+  
+  /* ********** Media Queries ExtraLarge ********** */
+  @media (min-width: 1200px) {
+  
+  }

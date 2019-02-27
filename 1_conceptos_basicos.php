@@ -66,8 +66,50 @@ echo '<p> el texto de abajo es un ejemplo en PHP de interpolación </p> ';
 echo"<p> Hola mi nombre es $nombre. y tengo $edad años 
 y ¿soy programador? $es_programador </p>" ;
 
+?>
+
+<h3>Arreglos </h3>
+
+<p> los arreglos son un tipo de ato, que nos permite almacenar multiples valores.
+podemos tener arreglos <b>unidimensionales</b> (vector) o<b>multidimensionales</b> (matrices). </p>
+
+<p> adicionalmente ala dimension de los arreglos, dependiendo del tipo de indice que tengan, estos pueden ser:
+<b>Arreglos posicionales</b> y <b>Arreglos asociativos</b>
+
+<?php
+
+$colores = [ 'negro', 'blanco', 'azul', 'verde', 'rojo', 19,true];
+
+//echo $colores;
+
+echo '<pre>';
+ var_dump($colores);
+ echo '</pre>';
+
+ echo $colores[2];
+ echo '<br>';
+ echo $colores[0];
+ echo '<br>';
+ echo count ($colores);
+
+
+ $contacto = array(
+  'nombre' => 'Guillermo',
+  'edad' =>  23, 
+  'email' => 'guille_gtzg@hotmail.com',
+  'movil' =>  '5565544645',
+  'web' => 'guillermo.com',
+ );
+
+ echo '<pre>';
+ var_dump($contacto);
+ echo '</pre>';
+ 
+ echo $contacto['nombre'];
+
 
 
 ?>
+
 </body>
 <html>
