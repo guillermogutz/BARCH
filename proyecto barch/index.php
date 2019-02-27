@@ -1,29 +1,33 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>Studio BAD DOG</title>
-  <link rel="stylesheet" href="css/style.css">
+    <?php require 'app/components/meta_tags.php'; ?>
+    <title>BARCH</title>
   </head>
   <body class="pt-5">
-   <?php require 'app/components/navbar.php'; ?>
+    <?php require 'app/components/navbar.php'; ?>
     <div class="container pt-5">
-      <h1>Seccion home</h1>
+      <h1>Sección Home</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consectetur provident aspernatur dolorum non facere minima, ad iste error iusto in expedita, quibusdam id laboriosam quo inventore, repellat nam dicta!
+        El proyecto <strong>BARCH</strong> tiene como proposito exponer por medio de un museo virtual las obras de Lilly Reich y Herbert Bayer. Dicha exposiciòn esta enfocada a un pùblico joven interesado en conocer màs acerca de dos de los artistas mas influyentes de la escuela alemana Bauhaus. El enfoque principal de la exposiciòn tiene como objetivo reflejar la simplicidad del diseño y su funciòn pràctica dentro de la vida cotidiana. partiendo de formas geomètricas sencillas y colores primarios. Para lograr lo anterior se utilizarà como recinto una casa inspirada en el museo Rietvel, cuya arquitectura refleja la misma geometrìa que buscaban reflejar estos artistas.
       </p>
     </div>
+     <!----- Home ------->
+    <?php require 'app/components/home.php'; ?>
 
+    <!----- Biografías ------->
+    <?php require 'app/components/biografias.php'; ?>
+
+    <!----- Museo ------->
+    <?php require 'app/components/museo.php'; ?>
+
+    <!----- Galería ------->
+    <?php require 'app/components/galeria.php'; ?>
+
+     <!----- Footer ------->
     <?php require 'app/components/footer.php'; ?>
+
+    <!----- Scripts ------->
     <?php require 'app/components/scripts.php'; ?>
-  
   </body>
 </html>
