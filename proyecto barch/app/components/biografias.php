@@ -1,4 +1,4 @@
-<section>
+<section class="herbert">
 <div class="container pt-5">
         <div class="row justify-content-center align-items-center">
           <article class="col-12 col-lg-5 font-120">
@@ -15,9 +15,9 @@
       </div>
       </section>
 
-      <section>
+      <section class="lilly">
 <div class=" container pt-5">
-        <div class="  row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center">
           <article class=" col-12 col-lg-5  order-lg-1 font-120  ">
             <h2>Lilly Reich</h2>
             <p>

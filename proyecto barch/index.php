@@ -25,4 +25,4 @@
     <!----- Scripts ------->
     <?php require 'app/components/scripts.php'; ?>
   </body>
-</html>
+</html> 

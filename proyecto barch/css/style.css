@@ -5,14 +5,14 @@
     --second-color: rgb(243, 239, 210);
     --second-modal-color: rgba(250, 250, 210, 0.75);
     --third-color: rgb(20, 110, 170);
-    --third-modal-color: rgba(25, 115, 190, .75);
+    --third-modal-color: rgba(65, 140, 201, 0.75);
     --fourth-color: rgb(240, 200, 0);
-    --fourth-modal-color: rgba(255, 220, 0, .75);
+    --fourth-modal-color: rgba(232, 206, 93, .75);
     --fifth-color: rgb(255, 255, 255);
     --fifth-modal-color: rgba(255, 245, 245, .75);
     --link-color: rgb(80, 158, 227);
     --sixth-modal-color: rgba(0, 0,0,);
-    --sisth-color: rgb(5, 5, 5,.75);
+    --sisth-color: rgb(5, 5, 5,.75); 
   
   
     --navbar-height: 64px;
@@ -77,6 +77,17 @@
     color: var(--sixth-modal-color);
   }
 
+  .lilly{
+    background-color: var(--fourth-modal-color);
+  }
+
+  .herbert {
+    background-color: var(--third-modal-color);
+  }
+
+  
+
+  
 
   
   
