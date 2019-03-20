@@ -3,7 +3,7 @@
 <html lang="es">
   <head>
     <?php require 'app/components/meta_tags.php'; ?>
-    <title><?=SITE['name']?></title>
+    <title><?=SITE['name']?></title> 
     <meta name="description" content="¿Necesitas un nuevo sitio web?
     Elaboro experiencias en línea, hermosas y atractivas. Soy Jonathan MirCha, Diseñador Web.">
   </head>

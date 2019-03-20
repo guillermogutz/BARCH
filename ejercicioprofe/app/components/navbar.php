@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item p-2">
-          <a class="nav-link" href="#">Clientes</a>
+          <a class="nav-link" href="clientes.php">Clientes</a>
         </li>
         <li class="nav-item p-2 dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="menu-sitios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

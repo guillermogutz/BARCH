@@ -1,3 +1,4 @@
+<?php require 'app/app.php'; ?>
 <!doctype html>
 <html lang="es">
   <head>
