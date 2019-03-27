@@ -3,7 +3,7 @@ define('SITE', array(
   'name' => 'Studio BAD DOG',
   'logo' => 'img/bad-dog-studio-logo.png',
   'social_media' => array(
-    array(  
+    array(
       'name' => 'facebook',
       'url' => 'https://facebook.com'
     ),

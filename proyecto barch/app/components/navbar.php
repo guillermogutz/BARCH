@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
   <div class="container">
     <a class="navbar-brand" href="index.php">
-      <img class="img-fluid" src="img/logo.png" alt="BARCH">
+      <img class="img-fluid" src="img/logo2.png" alt="BARCH">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
         </li>
         <li class="nav-item p-2">
           <a class="nav-link" href="#">Biografías</a>
-        </li>
+        </li> 
 
         <li class="nav-item p-2">
           <a class="nav-link" href="#">Museo</a>

@@ -12,7 +12,11 @@
     --fifth-modal-color: rgba(255, 245, 245, .75);
     --link-color: rgb(80, 158, 227);
     --sixth-modal-color: rgba(0, 0,0,);
-    --sisth-color: rgb(5, 5, 5,.75); 
+    --sixth-color: rgb(5, 5, 5,.75);
+    --seventh-color: rgb(0,29,64);
+    --seventh-modal-color: rgba(0, 0,0,); 
+  
+   
   
   
     --navbar-height: 64px;
@@ -20,18 +24,18 @@
   
   /* ********** Reset Styles ********** */
   body {
-    font-family: 'Squada One', cursive;
+    font-family: 'Mallanna', sans-serif;
   }
   
   a {
-    color: var(--sixth-color);
+    color: var( --fifth-color);
     transition: all .3s ease-out;
   }
   
   a:hover { color: var(--first-color); }
   
   /* ********** Bootstrap Styles ********** */
-  .bg-dark { background-color: var(--second-color) !important; }
+  .bg-dark { background-color: var( --seventh-color) !important; }
   
   .navbar-brand img {
     width: auto;
@@ -53,28 +57,36 @@
   .navbar-toggler:focus { outline: 0; }
 
   .nav-item:hover {
-    background-color: var(--second-color);
+    background-color: var( --seventh-color);
     transition: all .3s ease;
   }
   
   .nav-link {
-    color: var(--sixth-modal-color) !important;
+    color: var( --fifth-color) !important;
     font-size: 1.5 rem;
     font-weight: bold;
     transition: all .3s ease;
   }
   
-  .nav-link:hover { color:var(--third-color) !important; }
+  .nav-link:hover { color:var( --fourth-color) !important; }
   
   .dropdown-menu {
-    background-color: var(--second-color);
+    background-color: var( --seventh-color);
     border-color: var(--first-modal-color);
   }
   
   .dropdown-item,
   .dropdown-item:hover {
     font-weight: bold;
-    color: var(--sixth-modal-color);
+    color: var( --fifth-color);
+  }
+
+  .herbert {
+    background-color: var(--third-color);
+  }
+
+  .lilly {
+    background-color: var(--first-color);
   }
 
 
