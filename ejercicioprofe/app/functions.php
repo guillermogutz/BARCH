@@ -85,3 +85,29 @@ function get_clients ($array) {
     ';
   }
 }
+function get_workflow ($array) {
+  foreach ($array as $pos => $data) {
+    foreach ($data as $key => $value) {
+      $$key = $value;
+    }
+    if ($odd) {
+      $text_align = 'text-lg-right';
+      $order = '';
+    } else {
+      $text_align = '';
+      $order = 'order-lg-1';
+    }
+    echo '
+      <article class="row">
+        <div class="col-12 col-lg-6 '.$text_align.' '.$order.'">
+          <h2>' . $step . '</h2>
+          <h3>' . $title . '</h3>
+          <p>' . $text . '</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid" src="' . $img . '" alt="' . $title . '">
+        </div>
+      </article>
+    ';
+  }
+}

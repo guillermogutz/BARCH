@@ -3,7 +3,7 @@ define('SITE', array(
   'name' => 'Studio BAD DOG',
   'logo' => 'img/bad-dog-studio-logo.png',
   'social_media' => array(
-    array(  
+    array(
       'name' => 'facebook',
       'url' => 'https://facebook.com'
     ),
@@ -32,25 +32,25 @@ define('SITE', array(
     array(
       'title' => 'Nuevo sitio web',
       'text' => '¿Necesitas un (nuevo) sitio web 100% responsivo?',
-      'img' => 'https://placeimg.com/200/200/animals',
+      'img' => 'img/icon-sites.png',
       'link' => 'sitios.php'
     ),
     array(
       'title' => 'Clientes',
       'text' => 'Clientes felices y proyectos hermosos.',
-      'img' => 'https://placeimg.com/200/200/nature',
+      'img' => 'img/icon-clients.png',
       'link' => 'clientes.php'
     ),
     array(
       'title' => 'Flujo de Trabajo',
       'text' => 'Escucho tus necesidades. Discutamos tu proyecto.',
-      'img' => 'https://placeimg.com/200/200/people',
+      'img' => 'img/icon-workflow.png',
       'link' => 'comencemos.php'
     ),
     array(
       'title' => '¿Interesado?',
       'text' => 'Comencemos con tu nuevo proyecto.',
-      'img' => 'https://placeimg.com/200/200/arch',
+      'img' => 'img/icon-about.png',
       'link' => 'contacto.php'
     )
   ),
@@ -144,4 +144,41 @@ define('SITE', array(
       'text' => 'Fue justo al comienzo de mi negocio (principios de 2014), cuando el equipo de Webflow me contactó después de haber visto algunos de mis sitios web basados ​​en Webflow. Estaban lanzando un Template Marketplace en ese entonces y me pidieron que fuera parte de él. ¡He estado creando plantillas de flujo web html5 modernas y receptivas para ellos desde entonces!'
     )
   ),
+  'workflow' => array(
+    array(
+      'step' => 'Paso 1',
+      'title' => 'Concepto y Presupuesto',
+      'text' => 'Discutimos las primeras ideas durante una breve reunión en sitio, por correo electrónico o video llamada. Siguiendo las ideas iniciales, te presentaré un presupuesto oficial para el proyecto.',
+      'img' => 'img/workflow-step-1.png',
+      'odd' => true
+    ),
+    array(
+      'step' => 'Paso 2',
+      'title' => 'Propuesta de Diseño',
+      'text' => 'Una vez que se firme y/o acepte la cotización, recibirás la primera factura (50% del monto total acordado). Después del pago iniciaré el proyecto. Estudiaré tu empresa, producto o servicio. Para acelerar el proceso, es necesario que me entregues todo el material del proyecto en este momento (Logo, Textos, Fotos, Mapa del sitio, etc.). En 7 días te presentaré un diseño profesional y apropiado para tu sitio web.',
+      'img' => 'img/workflow-step-2.png',
+      'odd' => false
+    ),
+    array(
+      'step' => 'Paso 3',
+      'title' => 'Retroalimentación',
+      'text' => 'Después de la primera presentación del diseño, puedes dar tu opinión y compartir comentarios. Tendrás un máximo de 2 rondas de comentarios<sup><b>*</b></sup>. De esta manera no nos detenemos en un círculo sin fin de cambios menores. Esto evita perder tiempo y presupuesto. Es importante compartir buenos comentarios.',
+      'img' => 'img/workflow-step-3.png',
+      'odd' => true
+    ),
+    array(
+      'step' => 'Paso 4',
+      'title' => 'Acabado de Diseño y Contenido',
+      'text' => 'Después de la última ronda de comentarios, haré los cambios finales y terminaré el diseño completamente. En consulta contigo, también se procesa el contenido final, como textos y fotos.',
+      'img' => 'img/workflow-step-4.png',
+      'odd' => false
+    ),
+    array(
+      'step' => 'Paso 5',
+      'title' => 'Fin del Proyecto',
+      'text' => 'Dependiendo de la complejidad del proyecto, se terminará de 2 a 8 semanas. Una vez finalizado, recibirás la factura final (a menos que se acuerde de otra manera). Después del pago, te enviaré una copia de todos los archivos originales y pondré en línea tu sitio. Después de esta etapa, los cambios menores y los errores se procesarán de forma gratuita. Los cambios mayores tendrán costos adicionales<sup><b>*</b></sup>.',
+      'img' => 'img/workflow-step-5.png',
+      'odd' => true
+    )
+  )
 ));

@@ -7,6 +7,8 @@
   --third-color: rgb(80, 20, 100);
   --third-modal-color: rgba(80, 20, 100, .75);
   --link-color: rgb(80, 158, 227);
+  --bg-color: rgb(245, 245, 245);
+  --bg-modal-color: rgba(245, 245, 245, .75);
 
   --navbar-height: 64px;
 }
@@ -97,6 +99,30 @@ a:hover { color: var(--first-color); }
   background-color: rgb(108, 130, 145);
   background-image: linear-gradient(135deg, rgba(47, 145, 224, .91), rgba(7,31,51,.97) 79%);
   background-image: linear-gradient(131deg, rgba(28, 118, 173, .92), rgba(83,184,152,1));
+}
+
+#servicios img {
+  background-color: var(--third-color);
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+
+.bg-modal-color {
+  background-color: var(--bg-modal-color);
+}
+
+.single-page {
+  background-image: url('../img/site-singlepage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.multi-page {
+  background-image: url('../img/site-multipage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ********** Media Queries Small ********** */

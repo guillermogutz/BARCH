@@ -16,15 +16,15 @@
             Sitios
           </a>
           <div class="dropdown-menu" aria-labelledby="menu-sitios">
-            <a class="dropdown-item" href="#">SinglePage</a>
-            <a class="dropdown-item" href="#">MultiPage</a>
+            <a class="dropdown-item" href="sitios.php#single-page">SinglePage</a>
+            <a class="dropdown-item" href="sitios.php#multi-page">MultiPage</a>
           </div>
         </li>
         <li class="nav-item p-2">
-          <a class="nav-link" href="#">Comencemos</a>
+          <a class="nav-link" href="comencemos.php">Comencemos</a>
         </li>
         <li class="nav-item p-2">
-          <a class="nav-link" href="#">¿Interesado?</a>
+          <a class="nav-link" href="contacto.php">¿Interesado?</a>
         </li>
         <li class="nav-item p-2">
           <a class="nav-link" href="#">Login</a>

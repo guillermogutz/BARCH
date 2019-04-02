@@ -3,7 +3,7 @@
 <html lang="es">
   <head>
     <?php require 'app/components/meta_tags.php'; ?>
-    <title><?=SITE['name']?></title> 
+    <title><?=SITE['name']?></title>
     <meta name="description" content="¿Necesitas un nuevo sitio web?
     Elaboro experiencias en línea, hermosas y atractivas. Soy Jonathan MirCha, Diseñador Web.">
   </head>
@@ -22,7 +22,7 @@
             </a>
           </article>
           <article class="col-12 col-lg-7">
-            <img class="img-fluid" src="https://placeimg.com/640/480/nature" alt="¿Necesitas un asombroso sitio web?">
+            <img class="img-fluid" src="img/header-image.png" alt="Sitios web responsivos">
           </article>
         </div>
       </div>
@@ -35,7 +35,7 @@
             </p>
           </article>
           <article class="col-12 col-lg-7">
-            <img class="img-fluid" src="https://placeimg.com/640/480/animals" alt="¿Necesitas un asombroso sitio web?">
+            <img class="img-fluid" src="img/header-image-2.png" alt="¿Necesitas un increíble sitio web?">
           </article>
         </div>
       </div>

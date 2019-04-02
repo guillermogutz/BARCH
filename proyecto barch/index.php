@@ -17,13 +17,13 @@
     <!----- Museo ------->
     <?php require 'app/components/museo.php'; ?>
 
-    <!----- Galería ------->
-    <?php require 'app/components/galeria.php'; ?>
+    <!----- Secciones ------->
+    <?php require 'app/components/secciones.php'; ?>
 
      <!----- Footer ------->
     <?php require 'app/components/footer.php'; ?>
 
     <!----- Scripts ------->
     <?php require 'app/components/scripts.php'; ?>
-  </body>
+  </body> 
 </html> 

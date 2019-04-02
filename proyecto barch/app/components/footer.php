@@ -8,6 +8,6 @@
        <li><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
        <li><a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-snapchat"></i></a></li>
      </ul>
-     <small class="text-dark">&copy; <?php echo date ("y"); ?> hecho con <i class="fas fa-heart"></i> en <i class="fab fa-php"></i></small>
+    
      </div>
     </footer> 
