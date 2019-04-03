@@ -83,13 +83,6 @@
 
   .herbert {
     background-color: var(--third-color);
-<<<<<<< HEAD
-=======
-  }
-
-  .lilly {
-    background-color: var(--first-color);
->>>>>>> 29905c24feb94794b01ac766be12764d2f1447b5
   }
 
   .lilly {
@@ -100,10 +93,7 @@
     background-color: var(--fourth-color);
   }
 
-  .texto{
-    background-color: var(--fourth-color);
-  }
-  
+ 
 
 
 
