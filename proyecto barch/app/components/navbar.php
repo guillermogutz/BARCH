@@ -17,7 +17,7 @@
         </li> 
 
         <li class="nav-item p-2">
-          <a class="nav-link" href="#">Museo</a> 
+          <a class="nav-link" href="#museo2">Museo</a> 
         </li>
         <li class="nav-item p-2">
           <a class="nav-link" href="#">Secciónes</a>

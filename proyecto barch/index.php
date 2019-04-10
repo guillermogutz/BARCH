@@ -20,6 +20,11 @@
     <!----- Secciones ------->
     <?php require 'app/components/secciones.php'; ?>
 
+    <!------contacto------>
+
+    <?php require 'app/components/contacto.php'; ?>
+
+
      <!----- Footer ------->
     <?php require 'app/components/footer.php'; ?>
 

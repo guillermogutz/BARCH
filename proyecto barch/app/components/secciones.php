@@ -11,7 +11,7 @@
             Conoce las secciones del museo
             </p>
           </div>
-  <div class=" secciones card-group">
+  <div class=" secciones card-group"> 
   <div class="card">
     <img src="img/sec1.jpg" class="card-img-top" alt="...">
     <div class="card-body">

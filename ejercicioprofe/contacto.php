@@ -21,7 +21,8 @@
         </article>
         <article class="row">
           <div class="col-12 col-lg-6 order-lg-1">
-            Formulario
+          <?php require "app/components/contact_form.php"; ?>
+          
           </div>
           <div class="col-12 col-lg-6">
             <div class="embed-responsive embed-responsive-1by1">

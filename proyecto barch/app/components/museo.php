@@ -9,7 +9,7 @@
     
 
 
-    <section class="museo">
+    <section class="museo" id="museo2"> 
 <div class="container pt-5">
         <div class="row justify-content-center align-items-center text-black">
           <article class="col-12 col-lg-5 font-120">
